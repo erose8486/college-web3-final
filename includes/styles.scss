@@ -1,0 +1,111 @@
+$primaryAccent: #7d2f01;
+$light:#f5f9fa;
+$secondaryAccent:#F2A922;
+$dark: #1a1b1c;
+$success:#009111;
+$error:#cf0000;
+body{
+    background-color: $light;
+    color: $dark;
+    padding: 1vh 5vw;
+    font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+#header{
+    color:$primaryAccent;
+    text-align: center; 
+}
+#navigation{
+    ul{
+        display:flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        border-bottom: 5px solid $secondaryAccent;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        li{
+            background-color: $secondaryAccent;
+            border-radius: 10px 10px 0 0;
+            padding:20px 15px 5px;
+            margin:0 10px;
+            a{
+                color: $primaryAccent;
+                text-decoration: none;
+                &:hover{
+                    text-decoration: underline;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+}
+#content{
+    min-height: 65vh;
+}
+#footer{
+    background-color: $primaryAccent;
+    color:$light;
+    text-align: center;
+    padding:3px 0;
+    a{
+        color:darken($light, 35);
+    }
+}
+#homePage{
+    text-align: center;
+}
+button, a{
+    padding:4px 8px;
+    margin:5px 10px;
+    border-radius: 5px;
+    &.btn-primary{
+        background-color: $secondaryAccent;
+        color: $primaryAccent;
+        border:2px solid $primaryAccent;
+        font-size: 18px;
+        font-weight: bolder;
+        &:hover{
+            color:$secondaryAccent;
+            background-color: $primaryAccent;
+        }
+    }
+    &.btn-secondary{
+        background-color: $light;
+        color: $secondaryAccent;
+        border:1px solid $secondaryAccent;
+        font-size: 14px;
+        font-weight: bold;
+        &:hover{
+            color:$light;
+            background-color: $secondaryAccent;
+        }
+    }
+}
+input{
+    height:1.3em;
+    border-radius: 3px;
+    border:1px solid grey;
+    margin:10px 2px;
+}
+label{
+    font-weight: bold;
+}
+.success{
+    color:$success;
+}
+.error{
+    color:$error;
+}
+table{
+    td{
+        padding:10px 15px 10px 0;
+    }
+    th{
+        color:$primaryAccent;
+        border-bottom: 1px solid $primaryAccent;
+        text-align: left;
+    }
+}
+#recipe-instructions{
+    white-space: pre-line;
+}

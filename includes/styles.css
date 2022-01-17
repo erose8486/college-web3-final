@@ -1,0 +1,127 @@
+body {
+  background-color: #f5f9fa;
+  color: #1a1b1c;
+  padding: 1vh 5vw;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;
+}
+
+#header {
+  color: #7d2f01;
+  text-align: center;
+}
+
+#navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style-type: none;
+  border-bottom: 5px solid #F2A922;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#navigation ul li {
+  background-color: #F2A922;
+  border-radius: 10px 10px 0 0;
+  padding: 20px 15px 5px;
+  margin: 0 10px;
+}
+
+#navigation ul li a {
+  color: #7d2f01;
+  text-decoration: none;
+}
+
+#navigation ul li a:hover {
+  text-decoration: underline;
+  font-size: 17px;
+}
+
+#content {
+  min-height: 65vh;
+}
+
+#footer {
+  background-color: #7d2f01;
+  color: #f5f9fa;
+  text-align: center;
+  padding: 3px 0;
+}
+
+#footer a {
+  color: #7eb2bf;
+}
+
+#homePage {
+  text-align: center;
+}
+
+button, a {
+  padding: 4px 8px;
+  margin: 5px 10px;
+  border-radius: 5px;
+}
+
+button.btn-primary, a.btn-primary {
+  background-color: #F2A922;
+  color: #7d2f01;
+  border: 2px solid #7d2f01;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+button.btn-primary:hover, a.btn-primary:hover {
+  color: #F2A922;
+  background-color: #7d2f01;
+}
+
+button.btn-secondary, a.btn-secondary {
+  background-color: #f5f9fa;
+  color: #F2A922;
+  border: 1px solid #F2A922;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button.btn-secondary:hover, a.btn-secondary:hover {
+  color: #f5f9fa;
+  background-color: #F2A922;
+}
+
+input {
+  height: 1.3em;
+  border-radius: 3px;
+  border: 1px solid grey;
+  margin: 10px 2px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.success {
+  color: #009111;
+}
+
+.error {
+  color: #cf0000;
+}
+
+table td {
+  padding: 10px 15px 10px 0;
+}
+
+table th {
+  color: #7d2f01;
+  border-bottom: 1px solid #7d2f01;
+  text-align: left;
+}
+
+#recipe-instructions {
+  white-space: pre-line;
+}
+/*# sourceMappingURL=styles.css.map */
